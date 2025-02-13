@@ -16,7 +16,7 @@ The two files are trimmed of unecessary information and formatted in a consisten
 
 # Exploratory Data Analysis
 
-The profit and return on investment (ROI) percentage are calculated for each film and the two data sources are merged. Models are created for each output - profit and ROI - showing the statistically significant factors and the effect of each. 
+The profit and return on investment (ROI = profit as a percentage of the original budget) are calculated for each film and the two data sources are merged. Models are created for each output - profit and ROI - showing the statistically significant factors and the effect of each. 
 
 # Conclusion
 
@@ -26,50 +26,57 @@ Overall, there are more profitable films than unprofitable ones, so this appears
 
 Certain genres and combinations of genres perform better at the box office, however, and both runtime and user rating can also have an effect on the financial success of a film. 
 
-![profit_vs_genre.png](./pics/profit_vs_genre.png)          ![runtime_vs_profit_all.png](./pics/runtime_vs_profit_all.png)                    
+![profit_vs_genre.png](./pics/profit_vs_genre.png)          ![runtime_vs_profit_all.png](./pics/runtime_vs_profit_small.png)                    
 
-![horror_combos_roi.png.png](./pics/horror_combos_roi.png)
+![horror_combos_roi.png](./pics/horror_combos_roi.png)   ![mystery_combos_roi.png.png](./pics/mystery_combos_roi.png)
 
 ## Limitations
 
-The available data only provide the number of incidents, severity of injuries, and number of aircraft registered. Many other factors pertaining to the incidents could provide more detail about which incidents were related to the aircraft and which were pilot error, weather related, or otherwise independent of the aircraft. Also, the registration data seems a reasonable factor for normalizing incident counts, but number of hours or miles flown would be a more accurate normalization factor. 
+The data sets these conclusions and recommendations are based on are not comprehensive. They only include films that were released to theaters, for example, not the projects that were abandoned before completion, went straight to video, or those that couldn't find a distributor. These are all possible scenarios when beginning production on a film and are generally unprofitable routes. Also note that this analysis is based on thousands of films and the conclusions show averages and statistically significant findings. No amount of analysis or preplanning will guarantee that any individual film will be successful. These recommendations are only intended to provide insights to increase the odds that a film is a financial success.
 
 ## Recommendations
 
-The following aircraft are recommended for further study:
+To maximize return on investment:
 
-Single engine aircraft:
-- CIRRUS DESIGN SR22T
-- PIPER PA-28-180
-- PIPER PA-28-181
+-  Genre: horror + mystery
 
-Dual engine aircraft:
-- BD-100-1A10
-- LEARJET INC 45
-- BEECH 95-B55 (T42A)
-- PIPER PA-23-250
+-  Rating: higher = better
+
+-  Runtime: 75-90 minutes
+
+
+To maximize net profit:
+
+-  Budget: higher budget = higher net profit
+
+-  Genre: Animation or Sci-Fi
+
+-  Rating: higher = better
+
+-  Animation runtime: 105-120 minutes
+
+-  Sci-Fi runtime: 120-135 minutes
+
 
 ## Next Steps
 
-The recommended aircraft should be further analyzed for other factors, including:
-- Acquisition cost
-- Maintenance cost
-- Fuel cost
-- Staffing requirements
-- Lifetime of aircraft / performance over time
-- Availability of pilots and crew
-- Seating capacity
+This analysis should provide some initial guidance on general direction, but there is a lot more to do! Further analysis may show which writers, directors, or actors are the most bankable, for example. It may also show more fine details - a horror-romance might be unlikely to work out, but should there be no element of romance whatsoever or simply not so prominent that it gets listed as a genre? With more information guiding the many small decisions left to be made, here are some next steps:
+
+- Decide the approach: start with a $1M horror-mystery or go straight for a $100M animated or sci-fi blockbuster?
+- Begin sourcing talent: start with writers and directors, then find actors and crew once the project starts to take shape.
+- Refine your ideas: work with the writer and director to narrow down the scope from the broad genres above.
+- Start production: time to start filming!
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](./Aircraft_safety.ipynb), review this [presentation](./Slides.pdf), or peruse this [dashboard](https://public.tableau.com/app/profile/matthew.leroi/viz/Aircraft_safety/Dashboard?publish=yes).
+See the full analysis in the [Jupyter Notebook](./student.ipynb), review this [presentation](./Slides.pdf).
 
 For additional info, contact Matt LeRoi at [mcleroi@gmail.com](mailto:mcleroi@gmail.com)
 
 ```
 ├── data
-├── images
+├── pics
 ├── README.md
 ├── Slides.pdf
-└── Aircraft_safety.ipynb
+└── student.ipynb
 ```
