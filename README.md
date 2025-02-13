@@ -8,15 +8,15 @@ The goal of this project is to advise ACME Co, who are new to the film industry,
 
 # Data Understanding
 
-This project uses two data sources: [financial data](./data/tn.movie_budgets.csv.gz) from The-Numbers.com and [detailed film data](./data/im.db) from IMDB.com. 
+This project uses two data sources: [financial data](./data/tn.movie_budgets.csv.gz) from The-Numbers.com and [detailed film data](./data/im.db) from IMDB.com. The financial data includes the cost of making each film and the domestic and worldwide grosses. The detailed film data includes things like the runtime, applicable genres, and user ratings. 
 
 ## Data Preparation
 
-The large files are trimmed of unecessary information and formatted in a consistent manner to be merged later.
+The two files are trimmed of unecessary information and formatted in a consistent manner to be merged later. This includes converting strings to numbers and dates, and renaming columns to match between the two data sources.
 
 # Exploratory Data Analysis
 
-The accident and registration data are merged, and rates of fatalities, injuries, occurrences of issues, etc. are calculated and displayed.
+The profit and return on investment (ROI) percentage are calculated for each film and the two data sources are merged. Models are created for each output - profit and ROI - showing the statistically significant factors and the effect of each. 
 
 # Conclusion
 
