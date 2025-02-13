@@ -8,7 +8,7 @@ The goal of this project is to advise ACME Co, who are new to the film industry,
 
 # Data Understanding
 
-This project uses two data sources: [financial data](./data/tn.movie_budgets.csv.gz) from The-Numbers.com and [detailed film data](im.db) from IMDB.com. 
+This project uses two data sources: [financial data](./data/tn.movie_budgets.csv.gz) from The-Numbers.com and [detailed film data](./data/im.db) from IMDB.com. 
 
 ## Data Preparation
 
