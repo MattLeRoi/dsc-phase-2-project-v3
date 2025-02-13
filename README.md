@@ -69,7 +69,7 @@ This analysis should provide some initial guidance on general direction, but the
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](./student.ipynb), review this [presentation](./Slides.pdf).
+See the full analysis in the [Jupyter Notebook](./Film_analysis.ipynb), review this [presentation](./Slides.pdf).
 
 For additional info, contact Matt LeRoi at [mcleroi@gmail.com](mailto:mcleroi@gmail.com)
 
@@ -78,5 +78,5 @@ For additional info, contact Matt LeRoi at [mcleroi@gmail.com](mailto:mcleroi@gm
 ├── pics
 ├── README.md
 ├── Slides.pdf
-└── student.ipynb
+└── Film_analysis.ipynb
 ```
