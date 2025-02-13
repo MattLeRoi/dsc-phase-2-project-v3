@@ -20,15 +20,15 @@ The profit and return on investment (ROI) percentage are calculated for each fil
 
 # Conclusion
 
-The rates of aircraft issues varied greatly from aircraft to aircraft. Within the top 10 most common single and dual engine aircraft, the rates varied from 5 occurrances per 1000 registered aircraft to 25.  
+Overall, there are more profitable films than unprofitable ones, so this appears to be a good business to go into. 
 
-![Tables.png](./Images/Tables.png)
+![profit_vs_not.png](./pics/profit_vs_not.png)
 
-There were no significantly noted differences in accident rates between single and dual engine aircraft. The number of people affected was different, however, due to the generally larger seating capacity of dual engine planes. 
+Certain genres and combinations of genres perform better at the box office, however, and both runtime and user rating can also have an effect on the financial success of a film. 
 
-![Stacked.png](./Images/Stacked.png)
+![profit_vs_genre.png](./pics/profit_vs_genre.png)          ![runtime_vs_profit_all.png](./pics/runtime_vs_profit_all.png)                    
 
-![Bar_chart.png](./Images/Bar_chart.png)
+![horror_combos_roi.png.png](./pics/horror_combos_roi.png)
 
 ## Limitations
 
