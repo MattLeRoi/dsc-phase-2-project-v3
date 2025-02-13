@@ -1,16 +1,14 @@
-![BD-100-1A10.jpg](./Images/BD-100-1A10.jpg)
-
-# Aircraft Safety Analysis
+# Film Analysis
 
 **Author**: [Matt LeRoi](mailto:mcleroi@gmail.com) 
 
 # Business Understanding
 
-The goal of this project is to assess the accident risk of small aircraft for business/private use. The client is new to the business of operating aircraft and wants to minimize risk. This also includes focusing on the most common aircraft and newer planes to reduce the number of unknowns that would arise from lesser-used aircraft and the potential for incomplete maintenance records. The client will receive a targeted list of the safest aircraft to analyze further - for cost, number of seats, fuel efficiency, or other factors outside of the scope of this analysis - before making a final purchasing decision.
+The goal of this project is to advise ACME Co, who are new to the film industry, on how they can maximize their odds of making financially sucessful films. 
 
 # Data Understanding
 
-This project uses two data sources: [accident data](./data/Aviation_Data.csv) and [aircraft registration data](https://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/releasable_aircraft_download) from the FAA. The accident data, "data.csv", includes a unique entry for each accident or incident recorded, along with the number of injuries, fatalites, etc., information about the aircraft involved, and the circumstances around the event. The registration data contains a unique entry for each aircraft registered in the US and will be used to count the number of each make and model in operation. 
+This project uses two data sources: [financial data](./data/tn.movie_budgets.csv.gz) from The-Numbers.com and [detailed film data](im.db) from IMDB.com. 
 
 ## Data Preparation
 
