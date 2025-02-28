@@ -74,7 +74,7 @@ See the full analysis in the [Jupyter Notebook](./Film_analysis.ipynb), review t
 For additional info, contact Matt LeRoi at [mcleroi@gmail.com](mailto:mcleroi@gmail.com)
 
 ```
-├── data
+- [data](./data/)
 ├── pics
 ├── README.md
 ├── Slides.pdf
